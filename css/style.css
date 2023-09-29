@@ -5,6 +5,10 @@ img{
     width: 100%;
 }
 
-#star-line{
-    width:;
+#star{
+    width: 20%;
+}
+.ns-star-line{
+    width:40%;
+    height: 2px;   
 }
