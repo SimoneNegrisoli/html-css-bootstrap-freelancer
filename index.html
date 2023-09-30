@@ -10,7 +10,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Bootstrap</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center mb-2">
-                        <h2>Portfolio</h2>
+                        <h2 class="text-uppercase">Portfolio</h2>
                         <div id="star" class=" d-flex justify-content-between align-content-center align-items-center">
 
                             <div class="border border-2 border-dark rounded-end rounded-start ns-star-line"></div>
@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center mb-2">
-                        <h2>About us</h2>
+                        <h2 class="text-uppercase pt-3">About us</h2>
                         <div id="star" class=" d-flex justify-content-between align-content-center align-items-center">
 
                             <div class="border border-2 border-light rounded-end rounded-start ns-star-line"></div>
@@ -85,14 +85,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-md-6">
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt. Delectus
                             fugit veritatis nobis repellendus voluptas atque debitis, iure deserunt modi, maxime dolorum
                             odit tempore aut voluptatibus rem porro consequuntur?
                         </p>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-md-6">
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt. Delectus
                             fugit veritatis nobis repellendus voluptas atque debitis, iure deserunt modi, maxime dolorum
@@ -103,7 +103,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <button class=" bg-transparent text-light border border-light my-4">
+                        <button class=" bg-transparent text-light border border-light rounded my-4">
                             <i class="fa-solid fa-download"></i>
                             Download
                         </button>
@@ -114,7 +114,19 @@
 
         <section id="contact">
             <div class="container">
-                contact
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center mb-2 pt-3">
+                        <h2 class="text-uppercase">Contact me</h2>
+                        <div id="star" class=" d-flex justify-content-between align-content-center align-items-center">
+
+                            <div class="border border-2 border-dark rounded-end rounded-start ns-star-line"></div>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="border border-2 ns-star-line rounded-end rounded-start border-dark"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -124,15 +136,47 @@
         <!-- footer top -->
         <div id="footer-top" class="container">
             <div class="row">
-                <div class="col-12">1</div>
-                
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center text-center mt-5">
+                    <h4 class="text-uppercase">location</h4>
+                    <p>2215 Jonh Daniel Clark, MO 24543</p>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center mt-5">
+                    <h4 class="text-uppercase">Around the web</h4>
+                    <div id="social-icon" class="d-flex justify-content-between align-content-center align-items-center pb-3 ">
+
+                        <div class="border rounded-circle p-3 me-2 social-icon-container d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-light"><i class="fa-brands fa-facebook-f fa-lg text-center"></i></a>
+                        </div>
+
+                        <div class="border rounded-circle p-3 me-2 social-icon-container d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-light"><i class="fa-brands fa-google-plus-g fa-lg "></i></a>
+                        </div>
+
+                        <div class="border rounded-circle social-icon-container p-3 me-2 d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-light"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            
+                        </div>
+
+                        <div class="border rounded-circle social-icon-container p-3 me-2 d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-light"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center text-center mt-5">
+                    <h4 class="text-uppercase">About Frelancer</h4>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <span><a href="#" class="ns-text-succes">Start Bootstrap</a></span>.</p>
+                </div>
             </div>
         </div>
 
         <!-- footer bottom -->
         <div class="bg-black">
             <div id="footer-bottom" class="container ">
-                footer-bottom
+                <div class="row">
+                    <div class="col-12 text-center pt-5 pb-5">
+                       Copywrit <i class="fa-regular fa-copyright fa-xs"></i> your website 2019
+                    </div>
+                </div>
             </div>
         </div>
 
