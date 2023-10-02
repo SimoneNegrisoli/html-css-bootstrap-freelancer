@@ -80,3 +80,9 @@ img{
 transform: scale(1.1);
 background-color: #20c996e4;
 }
+
+nav .container button:hover{
+    color: black;
+    background-color: white;
+    border: white;
+}
