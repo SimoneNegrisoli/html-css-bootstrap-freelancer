@@ -8,8 +8,48 @@ img{
     width: 100%;
 }
 
-#star{
-    width: 20%;
+#start-image{
+    width: 200px;
+    display: inline-block;
+}
+
+.mystar-w::after, .mystar-w::before{
+    content:"";
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 10%;
+    margin: 0 10px;
+}
+.mystar-b::after, .mystar-b::before{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 10%;
+    margin: 0 10px;
+}
+
+
+.my-img-cards{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.my-img-cards:hover::after{
+    content: "+";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #20c996b1;
+    color: white;
+    font-size: 5em;
 }
 .ns-star-line{
     width:40%;
